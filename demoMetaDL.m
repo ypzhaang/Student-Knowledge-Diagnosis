@@ -86,7 +86,7 @@ end
   A = abs(A);
 U = X_SFL_new * A;
 U_Nor = NormalizeFea(U, 1);
- %% »Ö¸´Ô­±¾´ðÌâÇé¿ö
+ %% Â»Ã–Â¸Â´Ã”Â­Â±Â¾Â´Ã°ÃŒÃ¢Ã‡Ã©Â¿Ã¶
 Y1 = D_Nor*X_SFL;
 YRecovery = 1.0 ./ (1 + exp(-Y1));
  YRecovery(YRecovery>=0.5) = 1;
